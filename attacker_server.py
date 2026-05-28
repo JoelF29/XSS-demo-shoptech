@@ -3,6 +3,7 @@ Serveur attaquant — port 8000
 Capture les cookies et keystrokes exfiltrés depuis ShopTech (port 5000).
 """
 
+import os
 from datetime import datetime
 from flask import Flask, jsonify, request, render_template_string
 
